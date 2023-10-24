@@ -1,3 +1,4 @@
+#순서가 정해져 있는 걸 파악 후 짝수면 Alice, 홀수면 Bob이 이긴다는 결론을 도출.
 T=int(input())
 
 for tc in range(T):
