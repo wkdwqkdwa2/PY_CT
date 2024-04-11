@@ -9,6 +9,7 @@ del cabinet[3]
 #해당 키값이 없는 경우 바로 아래 있는 양식은 오류를 출력하며, 종료가 되지만 get함수를 이용한 문장은 None을 출력한다
 #print(cabinet[5])
 print(cabinet.get(5))
+
 #만약 키값이 없다면 출력할 문장 설정 가능
 print(cabinet.get(6,"사용가능"))
 
